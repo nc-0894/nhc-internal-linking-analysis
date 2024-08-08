@@ -85,6 +85,8 @@ The visualizations provide insights into the linking structure of the NHC websit
 
 # Testing and Review
 To ensure the project meets all requirements, the following steps were taken:
-    Thorough testing of each script to verify functionality.
-    Visualization outputs reviewed for accuracy and clarity.
-    Clear instructions provided for setup and running the project.
+1. Thorough testing of each script to verify functionality.
+
+2. Visualization outputs reviewed for accuracy and clarity.
+
+3. Clear instructions provided for setup and running the project.
