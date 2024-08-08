@@ -7,38 +7,43 @@ Internal Linking Analysis of the nortonheatlhcare.com domain.
 This project analyzes the internal and external linking structure of the Service Line (SL) pages on the Norton Healthcare (NHC) website. By using crawl data from Screaming Frog, the project provides insights into linking patterns, identifies the most linked pages, and understands the distribution of links across various pages.
 
 ## Setup Instructions
-1. **Clone the Repository**
+1. **Fork this Repository:**
+   - Go to the GitHub repository page.
+   - Click the "Fork" button at the top right of the repository page.
+   - This will create a copy of the repository under your GitHub account.
+
+2. **Clone the Repository**
    ```bash
    git clone https://github.com/yourusername/nhc-internal-linking-analysis.git
    cd nhc-internal-linking-analysis
 
-2. **Setup Virtual Environment**
+3. **Setup Virtual Environment**
     ```bash
     python -m venv venv
     source venv/bin/activate  # For macOS/Linux
     venv\Scripts\activate.vat  # For Windows
 
-3. **Install requirements.txt**
+4. **Install requirements.txt**
     ```bash
     pip install -r requirements.txt
 
-4. **Place data files**
+5. **Place data files**
     
     Ensure that SL_inlinks.csv and SL_outlinks.csv are in the data directory.
 
-5. **Run the Data Loading Script**
+6. **Run the Data Loading Script**
     ```python
     python scripts/load_data.py
 
-6. **Run the Data Cleaning Script**
+7. **Run the Data Cleaning Script**
     ```python
     python scripts/clean_data.py
 
-7. **Run the Data Combining Script**
+8. **Run the Data Combining Script**
     ```python
     python scripts/combine_data.py
 
-8. **Run the Data Analysis Script**
+9. **Run the Data Analysis Script**
     ```python
     python scripts/analyze_data.py
 
