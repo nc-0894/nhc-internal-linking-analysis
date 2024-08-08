@@ -13,26 +13,33 @@ This project analyzes the internal and external linking structure of the Service
    cd nhc-internal-linking-analysis
 
 2. **Setup Virtual Environment**
+    ```bash
     python -m venv venv
     source venv/bin/activate  # For macOS/Linux
-    venv\Scripts\activate  # For Windows
+    venv\Scripts\activate.vat  # For Windows
 
 3. **Install requirements.txt**
+    ```bash
     pip install -r requirements.txt
 
 4. **Place data files**
+    
     Ensure that SL_inlinks.csv and SL_outlinks.csv are in the data directory.
 
 5. **Run the Data Loading Script**
+    ```python
     python scripts/load_data.py
 
 6. **Run the Data Cleaning Script**
+    ```python
     python scripts/clean_data.py
 
 7. **Run the Data Combining Script**
+    ```python
     python scripts/combine_data.py
 
 8. **Run the Data Analysis Script**
+    ```python
     python scripts/analyze_data.py
 
 
