@@ -14,14 +14,18 @@ This project analyzes the internal and external linking structure of the Service
 
 2. **Clone the Repository**
    ```bash
-   git clone https://github.com/nc-0894/nhc-internal-linking-analysis.git
+   git clone https://github.com/[your-username]/nhc-internal-linking-analysis.git
    cd nhc-internal-linking-analysis
 
 3. **Setup Virtual Environment**
     ```bash
     python -m venv venv
     source venv/bin/activate  # For macOS/Linux
-    venv\Scripts\activate.vat  # For Windows
+    venv\Scripts\activate  # For Windows
+    venv/Scripts/Activate.ps1 #for Windows PowerShell
+
+# PowerShell users may have to update their policy to run the virtual environment and can use the following:
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 4. **Install requirements.txt**
     ```bash
