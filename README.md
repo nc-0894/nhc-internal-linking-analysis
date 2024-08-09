@@ -14,7 +14,7 @@ This project analyzes the internal and external linking structure of the Service
 
 2. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/nhc-internal-linking-analysis.git
+   git clone https://github.com/nc-0894/nhc-internal-linking-analysis.git
    cd nhc-internal-linking-analysis
 
 3. **Setup Virtual Environment**
