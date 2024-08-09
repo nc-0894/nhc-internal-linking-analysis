@@ -24,7 +24,7 @@ This project analyzes the internal and external linking structure of the Service
     venv\Scripts\activate  # For Windows
     venv/Scripts/Activate.ps1 #for Windows PowerShell
 
-# PowerShell users may have to update their policy to run the virtual environment and can use the following:
+PowerShell users may have to update their policy to run the virtual environment and can use the following:
     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 4. **Install requirements.txt**
